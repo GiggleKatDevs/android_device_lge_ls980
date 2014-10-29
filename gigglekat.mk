@@ -6,7 +6,7 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, device/lge/ls980/ls980.mk)
 
 # phone
-$(call inherit-product, vendor/gigglekat/config/common_phone.mk)
+$(call inherit-product, vendor/gigglekat/config/common.mk)
 
 ## product
 PRODUCT_DEVICE := ls980
